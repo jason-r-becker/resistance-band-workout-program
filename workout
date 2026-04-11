@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# workout — build workout PDF and sync to Dropbox
+set -euo pipefail
+
+REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
+DROPBOX_DIR="$HOME/Dropbox/Misc"
+
+cd "$REPO_DIR"
+
+# Build PDF from program + reference into a single file
+tmp="$(mktemp --suffix=.md)"
+cleanup() { rm -f "$tmp"; }
+trap cleanup EXIT
+
+cat program.md > "$tmp"
+printf '\n' >> "$tmp"
+cat reference.md >> "$tmp"
+
+./md2pdf "$tmp" workout.pdf
+
+# Copy to Dropbox
+cp workout.pdf "$DROPBOX_DIR/workout.pdf"
+echo "Synced → $DROPBOX_DIR/workout.pdf"

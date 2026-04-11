@@ -1,0 +1,65 @@
+#!/usr/bin/env bash
+# md2pdf — render Markdown to PDF via Pandoc -> WeasyPrint
+# - Uses a temp HTML file (auto-deleted)
+# - No visible title in PDF
+# - Suppresses warnings while keeping real errors
+
+set -euo pipefail
+
+usage() {
+  cat <<'EOF'
+Usage:
+  md2pdf INPUT.md [OUTPUT.pdf]
+
+Examples:
+  md2pdf resistance_training.md
+  md2pdf resistance_training.md resistance-training.pdf
+EOF
+}
+
+if [[ "${1:-}" == "-h" || "${1:-}" == "--help" || $# -lt 1 ]]; then
+  usage
+  exit 0
+fi
+
+in="$1"
+out="${2:-${in%.md}.pdf}"
+
+if [[ ! -f "$in" ]]; then
+  echo "ERROR: Input file not found: $in" >&2
+  exit 2
+fi
+
+tmp="$(mktemp --suffix=.html)"
+cleanup() { rm -f "$tmp"; }
+trap cleanup EXIT
+
+filter_warnings() {
+  sed -E '/^\[WARNING\]/d; /^WARNING:/d; /^WeasyPrint WARNING:/d'
+}
+
+# Provide hidden metadata title (not shown in document body)
+pandoc "$in" \
+  --standalone \
+  --quiet \
+  --metadata title="" \
+  -o "$tmp" 2> >(filter_warnings >&2)
+
+# Post-process: convert separator rows (containing ─) into styled midrules
+sed -i -E 's|<td[^>]*>─</td>|<td class="sep"></td>|g' "$tmp"
+
+weasyprint "$tmp" "$out" \
+  --stylesheet <(echo '
+    @page { margin: 0.5cm; }
+    table { font-size: 0.85em; border-bottom: none !important; }
+    td.sep {
+      border-bottom: 1px solid #ccc;
+      padding: 0 !important;
+      height: 1px !important;
+      line-height: 0 !important;
+      font-size: 0 !important;
+    }
+  ') \
+  2> >(filter_warnings >&2)
+
+echo "Wrote: $out"
