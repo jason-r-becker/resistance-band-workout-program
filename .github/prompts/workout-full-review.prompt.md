@@ -7,7 +7,7 @@ agent: "agent"
 
 # Workout Full Review
 
-Evaluate the full workout program in [program.md](../../program.md) using [reference.md](../../reference.md), [README.md](../../README.md), and [.github/copilot-instructions.md](../copilot-instructions.md).
+Evaluate the full workout program in [program.md](../../program.md) using [reference.md](../../reference.md), [README.md](../../README.md), [.github/copilot-instructions.md](../copilot-instructions.md), and [../../.training-preferences.local.md](../../.training-preferences.local.md) if it exists.
 
 Your goal is to produce the best possible feedback with minimal noise, no contradictory recommendations, and a short list of high-impact edits.
 
@@ -15,11 +15,13 @@ Your goal is to produce the best possible feedback with minimal noise, no contra
 
 - The weekly schedule is fixed. Do **not** suggest changing Friday, Saturday, Sunday, or the existence of the midweek micro sessions.
 - Start by reading the current workout files before making any judgments.
+- If [../../.training-preferences.local.md](../../.training-preferences.local.md) exists, read it and treat it as a real constraint set for exercise selection, volume, session length, recovery tradeoffs, and recommendation priority. If it does not exist, state that clearly and proceed without it.
 - Use git history to look for progression context, but do **not** invent a trend if the history is shallow.
 - Use exact current exercise names, bands, sets, and reps from [program.md](../../program.md).
 - Do **not** give circular advice. If one suggestion removes or swaps an exercise, do not later reintroduce the same idea in a different form unless there is a clearly stated reason.
 - Prefer the smallest number of changes that unlock the biggest improvement. Target **3 to 7** changes, not a giant rewrite.
 - Every suggested change must clearly improve at least one of these: progression potential, hypertrophy stimulus, recovery, durability, balance, or simplicity.
+- Every suggested change must also respect the repo's recommendation standard: evidence first, with band-specific practical bias only where necessary.
 - Ignore low-value nitpicks. The goal is not to maximize comments, it is to maximize useful signal.
 - Do **not** edit [program.md](../../program.md) until the user approves specific changes.
 
@@ -31,6 +33,7 @@ Read the current workout files:
 - [reference.md](../../reference.md)
 - [README.md](../../README.md)
 - [.github/copilot-instructions.md](../copilot-instructions.md)
+- [../../.training-preferences.local.md](../../.training-preferences.local.md) if it exists
 
 Then inspect history in the terminal:
 
@@ -46,10 +49,13 @@ Before spawning sub-agents, write down:
 1. Rough weekly set totals for chest, back, side delts, rear delts, biceps, triceps, quads, glutes/hamstrings, calves, and core
 2. Any obvious exercise duplication or redundancy
 3. Any obvious likely progression bottlenecks
+4. Which local user preferences are most relevant to the current decision
 
 ## Step 2 — Spawn Specialist Sub-Agents In Parallel
 
 Launch these four specialist reviews in parallel. Each one should read the current program and return a short, concrete report.
+
+All specialists must respect [../../.training-preferences.local.md](../../.training-preferences.local.md) if it exists, and must avoid recommendations that conflict with it unless they explicitly justify why the conflict is worth it.
 
 ### Agent 1: Hypertrophy Analyst
 
@@ -136,6 +142,7 @@ For each surviving change, score:
 - **Impact:** 1 to 5
 - **Confidence:** 1 to 5
 - **Support:** which agents endorsed it
+- **Basis:** `Evidence`, `Band-practical`, or `Mixed`
 
 Only keep suggestions that clear a high bar. If an idea is interesting but low-confidence, put it in a lower-priority section instead of the main list.
 
@@ -156,14 +163,17 @@ Short paragraph with the grade and the main reason.
 |------------|-------|--------------|-----------------|
 
 ### Consensus High-Impact Changes
-| # | Exact edit | Why it matters | Support | Impact | Confidence |
-|---|------------|----------------|---------|--------|------------|
+| # | Exact edit | Why it matters | Basis | Support | Impact | Confidence |
+|---|------------|----------------|-------|---------|--------|------------|
 
 ### Rejected Ideas
 - Suggestion: why it was rejected
 
 ### Notes On Progression History
 Brief note on what git history does or does not show.
+
+### Preference Fit
+Brief note on which user preferences most shaped the final recommendations.
 
 ### Ready To Apply
 Ask which of the consensus changes should be applied to [program.md](../../program.md).

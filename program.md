@@ -33,7 +33,6 @@
 | **Triceps** | | | |
 | Overhead Extension | Long head | ⚫🔴 | 3 × 6 |
 | Push Downs | Lateral / Medial heads | ⚫ | 3 × 6 |
-| Skull Crushers | Lateral / Long heads | 🔴 | 3 × 8 |
 
 
 <div style="page-break-after: always;"></div>
@@ -65,7 +64,6 @@
 | Standing Chest Press/Fly | Chest | 🟣| 3 × 15 |
 | Side Lateral Raise | Side delt | 🔴/🟡| 2–3 × 12 |
 | Tricep Overhead Extension | Long head | 🔴 | 2–3 × 12 |
-| Behind the Back Cable Curl | Long head | 🔴 | 2-3 × 12 |
 
 ## Mid Week — Micro Legs/Back/Core
 

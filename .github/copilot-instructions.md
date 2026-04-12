@@ -26,6 +26,13 @@ This is a resistance band workout program. The two core files are:
 
 When all sets hit the top of the prescribed rep range with good form, upgrade the band one tier and reset to the bottom of the rep range.
 
+### Recommendation Standard
+
+- Prefer evidence-first training recommendations.
+- When evidence comes mostly from barbell, dumbbell, or machine contexts, adapt conservatively rather than copying assumptions directly.
+- Use a band-specific practical bias where necessary, especially for exercise selection, rep ranges, and progression constraints caused by coarse band jumps or awkward resistance curves.
+- If a recommendation is based more on practical band reasoning than strong direct evidence, say so clearly.
+
 ### Build Pipeline
 
 `./workout` builds a PDF from `program.md` + `reference.md` via `md2pdf` (Pandoc + WeasyPrint) and syncs to `~/Dropbox/workout.pdf`.
