@@ -6,7 +6,7 @@
 | Low Anchor Row | Lower lats / Mid back | 🟣🟡 | 3 × 6 |
 | Straight Arm Pulldown | Lats | ⚫🟡 | 3 × 6 |
 | Straight Row | Mid traps / Rhomboids | 🟣🔴 | 3 × 6 |
-| Face Pulls | Rear delts | 🟡 | 3 × 6 |
+| Face Pulls | Rear delts | 🟡 | 2 × 12 |
 | ─ | ─ | ─ | ─ |
 | **Biceps (heavy/stretch)** | | | |
 | Behind the Back Cable Curl | Long head | ⚫ | 3 × 6 |
@@ -33,6 +33,7 @@
 | **Triceps** | | | |
 | Overhead Extension | Long head | ⚫🔴 | 3 × 6 |
 | Push Downs | Lateral / Medial heads | ⚫ | 3 × 6 |
+| Skull Crushers | Lateral / Long heads | 🔴 | 3 × 8 |
 
 
 <div style="page-break-after: always;"></div>
@@ -44,8 +45,8 @@
 | **Legs** | | | |
 | Overhead Squats | Quads / Glutes / Hammies | 🟣 | 3 × 8 |
 | Conventional Deadlift | Glutes / Hammies / Quads | 🟣🟡 | 3 × 8 |
-| Split Squat | Quads/Glutes | 🟣 | 3 × 6 |
-| Squatted Side Steps | Glutes | ⚫🔴 | 2 × 6 |
+| Split Squat | Quads/Glutes | 🟣 | 2 × 8 |
+| Squatted Side Steps | Glutes | ⚫🔴 | 2 × 10 |
 | Leg Curls | Hamstrings | 🟣 | 2 × 12 |
 | Calf Raises | Calves | 🟣 | 2 × 15–20 |
 | ─ | ─ | ─ | ─ |
@@ -64,6 +65,7 @@
 | Standing Chest Press/Fly | Chest | 🟣| 3 × 15 |
 | Side Lateral Raise | Side delt | 🔴/🟡| 2–3 × 12 |
 | Tricep Overhead Extension | Long head | 🔴 | 2–3 × 12 |
+| Behind the Back Cable Curl | Long head | 🔴 | 2-3 × 12 |
 
 ## Mid Week — Micro Legs/Back/Core
 

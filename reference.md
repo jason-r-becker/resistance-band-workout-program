@@ -32,7 +32,7 @@
 | Band Pull-Apart | Rear delts | 🟣🔴 | 3 × 6 |
 | Straight Arm Pulldown | Lats | ⚫🟡 | 3 × 6 |
 | Low Anchor Row | Lower lats / Mid back | 🟣 | 3 × 6 |
-| Face Pulls | Rear delts | 🟡 | 3 × 6 |
+| Face Pulls | Rear delts | 🟡 | 2 × 12 |
 | ─ | ─ | ─ | ─ |
 | **Biceps** | | | |
 | Behind the Back Cable Curl | Long head | ⚫ | 3 × 6 |
@@ -46,12 +46,12 @@
 | Workout | Muscles Hit | Band | Sets × Reps |
 |----------|-------------|------|:---------:|
 | Overhead Squats | Quads / Glutes / Hammies | 🟣 | 3 × 8 |
-| Split Squat | Quads / Glutes | 🟣 | 3 × 6 |
+| Split Squat | Quads / Glutes | 🟣 | 2 × 8 |
 | Spanish Squats | Quads (VMO) | 🟢 | 2 × 12 |
 | Conventional Deadlift | Glutes / Hammies / Quads | 🟣🟡 | 3 × 8 |
 | Band Pull-Through | Glutes / Hammies | ⚫ | 2 × 12 |
 | Good Mornings | Lower back / Glutes | 🟣 | 3 × 8 |
-| Squatted Side Steps | Glutes | ⚫🔴 | 3 × 6 |
+| Squatted Side Steps | Glutes | ⚫🔴 | 2 × 10 |
 | Leg Curls | Hamstrings | 🟣 | 2 × 12 |
 | Calf Raises | Calves | 🟣 | 2 × 15–20 |
 
