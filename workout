@@ -2,8 +2,8 @@
 # workout — build workout PDF and sync to Dropbox
 set -euo pipefail
 
-REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
-DROPBOX_DIR="$HOME/Dropbox/Misc"
+REPO_DIR="$(cd "$(dirname "$(readlink -f "$0")")" && pwd)"
+DROPBOX_DIR="$HOME/Dropbox"
 
 cd "$REPO_DIR"
 

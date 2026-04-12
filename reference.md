@@ -1,3 +1,5 @@
+<div style="page-break-after: always;"></div>
+
 # Reference Tables
 
 ## Push
@@ -27,7 +29,7 @@
 | **Back & Shoulders** | | | |
 | Overhead Pull Apart | Rear delts / Upper traps | 🟣 | 3 × 6 |
 | Straight Row | Mid traps / Rhomboids | 🟣🟡 | 3 × 6 |
-| Rear Delt Fly | Rear delts | 🟣🔴 | 3 × 6 |
+| Band Pull-Apart | Rear delts | 🟣🔴 | 3 × 6 |
 | Straight Arm Pulldown | Lats | ⚫🟡 | 3 × 6 |
 | Low Anchor Row | Lower lats / Mid back | 🟣 | 3 × 6 |
 | Face Pulls | Rear delts | 🟡 | 3 × 6 |
@@ -50,6 +52,15 @@
 | Band Pull-Through | Glutes / Hammies | ⚫ | 2 × 12 |
 | Good Mornings | Lower back / Glutes | 🟣 | 3 × 8 |
 | Squatted Side Steps | Glutes | ⚫🔴 | 3 × 6 |
+| Leg Curls | Hamstrings | 🟣 | 2 × 12 |
 | Calf Raises | Calves | 🟣 | 2 × 15–20 |
 
-🔴🟠🟡🟢🔵🟣🟤⚫⚪
+## Band Reference
+
+| Band | Resistance |
+|------|-----------|
+| 🟡 Yellow | 5–15 lbs |
+| 🔴 Red | 5–35 lbs |
+| ⚫ Black | 20–60 lbs |
+| 🟣 Purple | 30–80 lbs |
+| 🟢 Green | 40–110 lbs |
