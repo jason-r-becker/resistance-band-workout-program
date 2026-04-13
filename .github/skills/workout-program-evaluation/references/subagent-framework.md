@@ -22,10 +22,28 @@ Write down:
 5. Fixed schedule and exercise non-negotiables
 6. Rough weekly set totals for chest, back, side delts, rear delts, biceps, triceps, quads, glutes-hamstrings, calves, and core
 7. The 2 to 4 biggest apparent bottlenecks before specialist review
+8. When history matters, the meaningful git trend: what improved, what churned, and what seems stalled
 
 ## Specialist Roles
 
 Launch these reviews in parallel. If only one named subagent is available, launch multiple instances with different prompts. If no separate agent type is available, run multiple internal specialist passes and keep them explicitly distinct.
+
+### Optional: Preferences To Program Specialist
+
+Use this specialist when the user asks for a full build or major rewrite driven by personal answers in `.training-preferences.local.md`.
+
+Focus on:
+
+- Translating the gitignored personal questionnaire into concrete programming constraints
+- Choosing the simplest structure that still matches goals, priority muscles, pain issues, time budget, and equipment
+- Flagging missing answers that are important enough to block a confident build
+
+Return:
+
+1. Constraint summary
+2. Proposed high-level structure
+3. Missing answers or assumptions
+4. Which tradeoffs were chosen and why
 
 ### 1. Hypertrophy And Coverage Specialist
 
@@ -51,6 +69,7 @@ Focus on:
 - Exercises likely to stall first
 - Where band jumps are too coarse for the current rep scheme
 - Which exercises are poor fits for very low reps because of resistance curve or setup
+- When history matters, which exercises or muscle groups appear to be progressing, churning, or stagnating across commits
 
 Return:
 
@@ -58,6 +77,7 @@ Return:
 2. Top 3 changes only
 3. Whether each change is evidence-driven, band-practical, or mixed
 4. Which progressions are most likely to work without adding complexity
+5. What the git history suggests is improving versus stalled
 
 ### 3. Recovery, Pain, And Durability Specialist
 
@@ -148,6 +168,13 @@ Short paragraph with the biggest limiting factor.
 ### Constraint Summary
 | Constraint | Active value | Why it matters |
 |------------|--------------|----------------|
+
+### History Notes
+Only include this section when git history was part of the review.
+
+- What improved
+- What churned
+- What appears stalled
 
 ### Specialist Summary
 | Specialist | Grade | Main concern | Best suggestion |
