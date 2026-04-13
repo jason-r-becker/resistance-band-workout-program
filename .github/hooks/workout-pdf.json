@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "type": "command",
+        "command": "python3 .github/hooks/scripts/rebuild_workout_pdf.py",
+        "cwd": ".",
+        "timeout": 120
+      }
+    ]
+  }
+}
