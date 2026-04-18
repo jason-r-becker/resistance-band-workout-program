@@ -4,16 +4,16 @@
 |----------|-------------|------|:---------:|
 | **Back** | | | |
 | Low Anchor Row | Lower lats / Mid back | 🟣🟡 | 3 × 6–8 |
-| Single Arm Pulldown | Lats | 🔴 | 3 × 10–12 |
-| Straight Row | Mid traps / Rhomboids | 🟣🔴 | 2 × 8–10 |
+| Single Arm Pulldown | Lats | 🟣 | 3 × 10–12 |
+| Straight Row | Mid traps / Rhomboids | 🟣🟡 | 2 × 8–10 |
 | Face Pulls | Rear delts | 🟡 | 2 × 12–15 |
 | ─ | ─ | ─ | ─ |
 | **Biceps (heavy/stretch)** | | | |
 | Behind the Back Cable Curl | Long head | ⚫ | 3 × 6–8 |
-| Overhand Curl | Brachialis | 🟣🔴 | 2 × 8–10 |
+| Overhand Curl | Brachialis | 🟣🟡 | 2 × 8–10 |
 | ─ | ─ | ─ | ─ |
 | **Micro Add-On (light)** | | | |
-| Push Downs | Lateral / Medial heads | 🔴 | 2 × 12–15 |
+| Push Downs | Lateral / Medial heads | 🔴🟡 | 2 × 12–15 |
 | Side Lateral Raise | Side delt | 🟡| 2 × 12–15 |
 
 ## Saturday — Push
@@ -71,9 +71,9 @@
 
 | Workout | Muscles Hit | Band | Sets × Reps |
 |----------|-------------|------|:---------:|
-| Straight Row | Mid traps / Rhomboids | 🔴🟡 | 2 × 12–15 |
+| Straight Row | Mid traps / Rhomboids | ⚫ | 2 × 12–15 |
 | Face Pulls | Rear delts | 🟡 | 2 × 12–15 |
 | Spanish Squats | Quads | 🟢 | 2 × 12–15 |
-| Band Pull-Through | Glutes / Hammies | ⚫ | 2 × 12–15 |
+| Band Pull-Through | Glutes / Hammies | 🟢 | 2 × 12–15 |
 | Calf Raises | Calves | 🟣 | 2 × 15-20 |
 | Ab Wheel Rollout | Core | — | 2 × 8–12 |

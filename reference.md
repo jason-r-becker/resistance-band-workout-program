@@ -30,13 +30,13 @@
 | Overhead Pull Apart | Rear delts / Upper traps | 🟣 | 3 × 6 |
 | Straight Row | Mid traps / Rhomboids | 🟣🟡 | 2 × 8–10 |
 | Band Pull-Apart | Rear delts | 🟣🔴 | 3 × 6 |
-| Single Arm Pulldown | Lats | 🔴 | 3 × 10–12 |
+| Single Arm Pulldown | Lats | 🟣 | 3 × 10–12 |
 | Low Anchor Row | Lower lats / Mid back | 🟣 | 3 × 6–8 |
 | Face Pulls | Rear delts | 🟡 | 2 × 12–15 |
 | ─ | ─ | ─ | ─ |
 | **Biceps** | | | |
 | Behind the Back Cable Curl | Long head | ⚫ | 3 × 6–8 |
-| Overhand Curl | Brachialis | 🟣🔴 | 2 × 8–10 |
+| Overhand Curl | Brachialis | 🟣🟡 | 2 × 8–10 |
 | Underhand Curl | Inner bicep | 🟣🔴🟡 | 2 × 10–12 |
 | Drag Curls | Peak bicep | ⚫🟡 | 2 × 10–12 |
 | One Arm Cross Body Curl | Brachialis | ⚫🟡 | 2 × 10–12 |
@@ -49,7 +49,7 @@
 | Split Squat | Quads / Glutes | 🟣 | 2 × 8–10 |
 | Spanish Squats | Quads (VMO) | 🟢 | 2 × 12 |
 | Conventional Deadlift | Glutes / Hammies / Quads | 🟣🟡 | 3 × 6–8 |
-| Band Pull-Through | Glutes / Hammies | ⚫ | 2 × 12–15 |
+| Band Pull-Through | Glutes / Hammies | 🟢 | 2 × 12–15 |
 | Good Mornings | Lower back / Glutes | 🟣 | 3 × 8 |
 | Squatted Side Steps | Glutes | ⚫🔴 | 2 × 10–15 |
 | Leg Curls | Hamstrings | 🟣 | 2 × 10–15 |
